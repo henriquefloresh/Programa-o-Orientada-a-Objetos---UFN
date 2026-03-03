@@ -13,7 +13,7 @@ public class Ex8 {
 		while(true) {
 			nomeCidade = teclado.nextLine();
 			
-			 if (nomeCidade.equals("São Paulo")) { // comparação de string se usa .equals
+			 if (nomeCidade.equalsIgnoreCase("São Paulo")) { // comparação de string se usa .equalsIgnoreCase
 	                break;
 	            }
 			 
